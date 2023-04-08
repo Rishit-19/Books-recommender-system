@@ -9,7 +9,7 @@ similar = pickle.load(open('similar.pkl','rb'))
 
 
 
-app = Flask(__name__, template_folder='templates')
+app = Flask(__name__, template_folder='docs')
 
 
 @app.route('/')
